@@ -1,0 +1,35 @@
+{
+  "name": "button-snapshot-test",
+  "version": "0.0.0",
+  "description": "Minimal non-working example for jest-styled-components",
+  "repository": "jenniferOlsen/button-snapshot-test",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run bootstrap && jest",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "glob-loader": "^0.3.0",
+    "jest": "^22.4.3",
+    "jest-styled-components": "^5.0.1",
+    "lerna": "^2.11.0",
+    "prettier-standard": "^8.0.0",
+    "raf": "^3.4.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-test-renderer": "^16.3.0",
+    "standard": "^11.0.1",
+    "styled-components": "^3.2.5"
+  }
+}

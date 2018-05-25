@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correct button styles 1`] = `
+<Button>
+  <src__StyledButton>
+    <button
+      className="src__StyledButton-jTdqxW jQYvmM"
+    />
+  </src__StyledButton>
+</Button>
+`;
